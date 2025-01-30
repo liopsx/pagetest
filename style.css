@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+body {
+ font-family: 'Popping', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+/* modificacion de la imagen del header la principal*/
+.hyu{
+   position: relative; /* Para que los elementos internos se posicionen correctamente */
+   background: transparent; /* Fondo transparente */
+   min-height: 70vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.header-video {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   overflow: hidden;
+   z-index: -1; /* Envía el video al fondo */
+}
+
+.header-video video {
+   width: 100%;
+   height: 100%;
+   object-fit: cover; /* Ajusta el video sin deformarlo */
+}
+.header-content h1 {
+   color: white;
+   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Sombra para mejorar la visibilidad */
+   font-size: 75px;
+   text-transform: uppercase;
+}
+
+.btn-1 {
+   display: inline-block;
+   padding: 11px 35px;
+   background-color: rgba(206, 150, 120, 0.8); /* Botón con transparencia */
+   color: #F9FAFC;
+   text-transform: uppercase;
+}
+.header {
+   background-color: #333;
+       /* url(img/portada.jpg);*/
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    
+}
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo {
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: 800;
+}
+/* este  seccion esta la edicion del menu*/
+.menu .navbar ul li {
+   position: relative;
+   float: left;
+}
+
+.menu .navbar ul li a {
+   font-size: 18px;
+   padding: 20px;
+   color: aliceblue;
+   display: block;
+   font-weight: 600;
+ }
+ .menu .navbar ul li a:hover {
+    color: #ce9678; ;
+ }
+ #menu{
+    display: none;
+ }
+ .menu-icono {
+    width: 25px ;
+
+ }
+ .menu label {
+    cursor: pointer;
+    display: none;
+ }
+ .header-content {
+    text-align: center;
+
+ }
+ /*  Edicion del titulo "ELMontubio"*/
+
+
+ .header-content p {
+    font-size: 16px;
+    color: #c5c5c5;
+    padding: 0 250px ;
+    margin-bottom: 25px;
+
+ }
+ .btn-1 {
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: #ce9678;
+    color: #F9FAFC;
+    text-transform: uppercase;
+ }
+ .btn-1:hover {
+    background-color: #ebad8d;
+ }
+ .agro{
+    padding: 100px 0;
+    background-color: #e1e2e6;
+    position: relative;
+ }
+ .agro-content {
+    text-align: center;
+ }
+ .agro-content h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 15px;
+
+ }
+ .txt-p {
+    font-size: 16px;
+    color: #414247;
+    padding: 0 250px;
+    margin-bottom: 35px;
+
+ }
+ .agro-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+
+ }
+ .agro-1 {
+    padding: 0 25px;
+ }
+ .agro-1 img {
+    width: 200px ;
+ }
+ .agro-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+ }
+ .agro-imge {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scaleX(-1);
+ }
